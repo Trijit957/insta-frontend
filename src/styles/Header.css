@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+
+
+.header {
+    background-color: white;
+    color: black;
+    width: 100%;
+    box-shadow: 0px 0px 3px 0px black;
+    
+    
+}
+
+.header__contents {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.header__contents__logo {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 10px;
+    font-family: 'Lobster Two', cursive;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.header__contents__icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.MuiButton-label {
+    font-weight: bold;
+}
+
+.vline {
+    border-left: 5px solid black;
+    height: 100%;
+}
+
+@media(min-width: 900px) {
+ 
+    
+
+    .vline {
+        border-left: 20px solid black;
+        height: 100%;
+    }
+
+}
+
+@media(max-width: 640px) {
+
+    .header__contents{
+       justify-content: space-between;
+    }
+    .header__icons {
+        width: 100%;
+    }
+
+}

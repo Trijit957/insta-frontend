@@ -1,0 +1,34 @@
+.createpost {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.createpost__form  {
+    width: 80vw;
+    
+}
+
+.createpost__image {
+    height: 100px;
+    width: 100%;
+    object-fit: contain;
+    
+}
+
+.createpost__card {
+    padding: 30px;
+    box-shadow: 0px 0px 5px 0px grey !important;
+}
+
+span {
+    font-weight: bold;
+}
+@media(min-width: 900px) {
+    .createpost__form  {
+        width: 50vw;
+    }
+}

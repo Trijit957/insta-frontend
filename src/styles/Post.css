@@ -1,0 +1,169 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 90vh;
+    
+}
+
+.post__wrapper {
+  margin-top: 10px;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.post__card {
+  border: 1px solid lightgray;
+  width: 50vw;
+
+    
+} 
+
+.suggestion {
+    
+    border: 1px solid black; 
+    position: fixed;
+    right: 0;
+    
+    
+}
+
+
+
+.post__image {
+   
+  height: 80vh;
+  width: 100%;
+
+}
+
+.post__content__title {
+  text-align: left;
+  margin: 0;
+}
+
+.post__content__body {
+  text-align: left;
+  margin: 0;
+  color: grey;
+}
+
+.MuiTypography-root {
+    font-size: 16px !important;
+    font-weight: 600 !important;
+    color: #262626 !important;
+}
+
+.heart {
+    height: 31px;
+    width: 31px;
+
+}
+
+.post__content {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.post__content__icons {
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+
+}
+
+.chat-bubble {
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.like {
+    height:100px;
+    margin:0 auto;
+    position: relative;
+  }
+  
+.post__content__icons__iconButton {
+  box-shadow: 0px 0px 1px 0px grey !important;
+  padding: 10px !important;
+}
+
+.lightgray-color {
+  color: lightgray !important;
+}
+
+.red-color {
+  color: red !important;
+}
+
+path {
+  pointer-events: none;
+}
+
+.post__content__icons__heart-emoji {
+  pointer-events: none;
+}
+
+.post__content__icons__iconButton > span {
+  pointer-events: none;
+}
+
+.post__content__comment-form {
+  width: 100%;
+  display: flex;
+
+}
+
+hr {
+  border-top: 1px solid lightgray;
+  margin: 0;
+}
+
+.post__content__comment-form > input {
+  flex: 1;
+  height: 4vh;
+  border: none;
+  padding: 8px;
+  outline: none;
+  font-size: 16px;
+  
+}
+
+.post__content__comment-form > button {
+   background: none;
+   border: none;
+   outline: none;
+   color: rgba(13, 128, 236, 1);
+   font-weight: bold;
+   cursor: pointer;
+}
+
+h4 > span {
+  padding: 10px;
+  font-weight: bold;
+  color: black;
+}
+
+h4 {
+  font-size: large;
+  color: gray;
+}
+
+.card-action-cmt-box {
+  box-shadow: 0px 0px 15px 2px #2e62a5;
+}
+
+
+@media(max-width: 640px) {
+  .post__card {
+    border: 1px solid lightgray;
+    width: 100vw;
+  
+      
+  } 
+}
